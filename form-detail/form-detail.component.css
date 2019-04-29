@@ -1,0 +1,5 @@
+.button{
+    display: inline-block;
+    font-size: small;
+    background-color: hsl(0, 0%, 67%);
+}

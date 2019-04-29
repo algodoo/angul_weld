@@ -1,0 +1,22 @@
+<div class='row'>
+  <div class='column'>
+<h2>People</h2>
+<ul class="people">
+    
+  <li *ngFor='let form of people'
+  [class.selected]='form === selectHuman'
+  (click)='onSelect(form)'>
+    <span class="badge">{{form.id}}</span>{{form.name}}
+  </li>
+
+</ul>
+<button class='button' (click)='Back()'>Back</button>
+</div>
+
+
+<div class='column-editform'>
+    <app-form-detail [form]='selectHuman'></app-form-detail>
+</div>
+</div>
+
+  

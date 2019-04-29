@@ -1,0 +1,25 @@
+.column{
+    float: left;
+    width: 45vw;
+  }
+
+ .row{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.body{
+    background-color: hsl(0, 0%, 67%); 
+}
+
+.buttonHolder{
+
+    color: #aaa;
+    text-align: center;
+}
+
+.auth{
+    margin: center;
+    text-align: center;
+}
